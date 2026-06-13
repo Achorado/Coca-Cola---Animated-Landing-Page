@@ -16,3 +16,10 @@ Stack Tecnológico:
 
 Idea de Diseño y Mecánica:
 Queremos generar assets de video/animaciones realistas de Coca-Cola usando IA (como Higgsfield). El objetivo principal es que estos elementos visuales reaccionen directamente al scroll del usuario (avanzando o retrocediendo en su línea de tiempo). Buscamos la implementación técnica más óptima para lograr esto en React (ya sea mediante manipulación de video optimizado, secuencias de imágenes o canvas) asegurando que la página se mantenga fluida y responsiva.
+
+
+### EL PROYECTO SE INICIA EN LA RAIZ DEL MISMO CON 
+
+```bash
+npm run dev 
+```
