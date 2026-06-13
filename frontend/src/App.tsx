@@ -1,5 +1,3 @@
-import React from 'react';
-
 function App() {
   return (
     <div className="bg-coca-black min-h-screen text-coca-white font-sans overflow-x-hidden">
@@ -12,7 +10,7 @@ function App() {
           </div>
           <div className="hidden md:flex gap-8 text-sm font-medium tracking-wide">
             <a href="#hero" className="hover:text-coca-red transition-colors">Inicio</a>
-            <a href="#transition" className="hover:text-coca-red transition-colors">Productos</a>
+            <a href="/pages/Productos.html" className="hover:text-coca-red transition-colors">Productos</a>
             <a href="#pouring" className="hover:text-coca-red transition-colors">Experiencia</a>
             <a href="#cta" className="hover:text-coca-red transition-colors">Mayoristas</a>
           </div>
