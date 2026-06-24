@@ -294,9 +294,7 @@ export default function Mayoristas() {
             <p className="text-xl md:text-2xl text-gray-600 mb-10 font-medium leading-relaxed">
               Únete a nuestra red de socios. Como mayorista oficial, disfrutarás de promociones exclusivas, atención personalizada y equipamiento para tu local.
             </p>
-            <button className="bg-coca-black hover:bg-gray-800 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all transform hover:-translate-y-1 shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full md:w-auto text-center border-b-4 border-gray-900 active:border-b-0 active:translate-y-0">
-              Afíliate Ahora
-            </button>
+            <a href="/Login" className='bg-coca-black hover:bg-gray-800 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all transform hover:-translate-y-1 shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full md:w-auto text-center border-b-4 border-gray-900 active:border-b-0 active:translate-y-0' >Afiliate Ahora</a>
           </div>
         </div>
       </section>

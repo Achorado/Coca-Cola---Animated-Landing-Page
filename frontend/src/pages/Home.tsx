@@ -452,12 +452,16 @@ export default function Home() {
               <label className="block text-sm font-bold text-gray-700 mb-1">Teléfono</label>
               <input type="tel" className="w-full bg-gray-100 border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-coca-red focus:border-transparent transition-all" placeholder="+51 987 654 321" />
             </div>
-            <button type="button" className="mt-4 bg-coca-red hover:bg-red-700 text-white font-bold text-lg py-4 rounded-xl transition-all transform hover:scale-105 shadow-lg">
-              Solicitar Contacto y Descuento
-            </button>
+            <a
+              href="/Login"
+              className="mt-4 flex items-center justify-center bg-coca-red hover:bg-red-700 text-white font-bold text-lg py-4 rounded-xl transition-all transform hover:scale-105 shadow-lg"
+            >
+              Solicitar descuento
+            </a>
           </form>
         </div>
       </section>
     </div>
   );
 }
+
